@@ -325,7 +325,27 @@
 
 
 /* 🔹 Responsif untuk HP kecil (max-width: 480px) */
-@media (max-width: 412px) {
+@media (max-width: 480px) {
+    .navbar ul li a {
+            font-size: 8px;
+        }
+        .navbar ul li {
+            margin-left: 15px;
+        }
+    .navbar h1 {
+        font-size: 13px;
+
+    }
+
+    .album-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .album-container img {
+        width: 120px;
+        height: 120px;
+    }
     .profile {
         grid-template-columns: repeat(2, 1fr); /* 1 kolom */
     }
